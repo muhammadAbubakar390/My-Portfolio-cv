@@ -1,165 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Muhammad Abu Bakar | Full Stack MERN & AI Developer</title>
 
   <!-- SEO -->
-  <meta name="description" content="Muhammad Abu Bakar is a Full Stack MERN Developer working with AI tools and machine learning models.">
+  <meta name="description"
+    content="Muhammad Abu Bakar is a Full Stack MERN Developer working with AI tools and machine learning models.">
   <meta name="keywords" content="Muhammad Abu Bakar, MERN Developer, Full Stack Developer, AI, Machine Learning">
   <meta name="author" content="Muhammad Abu Bakar">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- HERO -->
-<section class="hero">
-  
-  <img src="images/profile.jpg.jpeg" alt="Muhammad Abu Bakar" class="profile-img">
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="logo">
+      <span class="accent-text">Muhammad</span>AbuBakar
+    </div>
 
-  <h1>Muhammad Abu Bakar</h1>
-  <h2>Full Stack MERN Developer • AI & ML Enthusiast</h2>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-  <div class="social-links">
-    <a href="https://www.linkedin.com/in/muhammad-abubaker-a631b6282" target="_blank">LinkedIn</a>
-    <a href="https://github.com/muhammadAbubakar390" target="_blank">GitHub</a>
-    <a href="https://www.instagram.com/bakar.5_" target="_blank">Instagram</a>
-    <a href="https://wa.me/923160431266" target="_blank">WhatsApp</a>
+    <div class="header-right">
+      <div class="header-socials">
+        <a href="https://github.com/muhammadAbubakar390" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/muhammad-abubaker-a631b6282" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/bakar.5_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:mianabubakar3390@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+
+      <button id="theme-toggle" title="Toggle theme"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi, I'm Muhammad Abu Bakar</h1>
+      <h2 class="accent-text">Full Stack MERN Developer, AI & ML Enthusiast</h2>
+      <p>I create beautiful, functional, and user-centered digital experiences. With a strong interest in AI models, I
+        bring ideas to life through clean code and thoughtful design.</p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-area">
+      <div class="profile-glow">
+        <img src="images/profile.jpg.jpeg" alt="Muhammad Abu Bakar">
+      </div>
+      <!-- Orbiting Ring -->
+      <div class="orbit-ring">
+        <div class="orbit-icon" style="--angle: 0deg"> <i class="fab fa-react" style="color:#61dafb;"></i></div>
+        <div class="orbit-icon" style="--angle: 60deg"> <i class="fab fa-node-js" style="color:#339933;"></i></div>
+        <div class="orbit-icon" style="--angle: 120deg"><i class="fas fa-database" style="color:#47a248;"></i></div>
+        <div class="orbit-icon" style="--angle: 180deg"><i class="fab fa-python" style="color:#3776ab;"></i></div>
+        <div class="orbit-icon" style="--angle: 240deg"><i class="fab fa-js" style="color:#f7df1e;"></i></div>
+        <div class="orbit-icon" style="--angle: 300deg"><i class="fas fa-robot" style="color:#ff9900;"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <h3 class="section-heading">About Me</h3>
+
+    <div class="about-container">
+      <div class="about-left">
+        <div class="about-image-wrapper">
+          <img src="images/me.jpeg" alt="Muhammad Abu Bakar">
+        </div>
+      </div>
+
+      <div class="about-right">
+        <p>
+          My name is Muhammad Abu Bakar, and I am a 6th-semester Software Engineering student with a strong interest in
+          web development, particularly the MERN stack. I have a solid understanding of HTML, CSS, JavaScript, PHP,
+          React.js, Node.js, Express.js, and MongoDB, along with strong foundations in core programming and
+          problem-solving concepts.
+        </p>
+        <p>
+          In addition to web development, I have also worked on basic AI and Machine Learning models, which has helped
+          me understand data-driven thinking, model logic, and how intelligent systems can be integrated with modern
+          applications. I actively enjoy exploring new technologies and innovative approaches.
+        </p>
+        <p>
+          I am seeking an opportunity to join a company as a MERN Stack Developer, where I can gain practical industry
+          experience, collaborate with experienced technical staff, and contribute to meaningful projects.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & EXPERIENCE -->
+  <section class="education-stats-section" id="education">
+    <h3 class="section-heading">My Education</h3>
+
+    <div class="education-boxes-container">
+      <!-- 1st Row -->
+      <div class="about-stats stats-row">
+        <div class="stat-box blue-border">
+          <h4 class="blue-text">University of Management and Technology, Lahore</h4>
+          <p>Software Engineering (Continued)</p>
+          <p class="stat-year">2023 - 2027</p>
+        </div>
+        <div class="stat-box blue-border">
+          <h4 class="blue-text">Government College University, Lahore</h4>
+          <p>Intermediate in Computer Science</p>
+          <p class="stat-year">2021 - 2023</p>
+        </div>
+        <div class="stat-box blue-border">
+          <h4 class="blue-text">Allied School, Lahore</h4>
+          <p>Matriculation in Science Subjects</p>
+          <p class="stat-year">2019 - 2021</p>
+        </div>
+      </div>
+
+      <!-- 2nd Row -->
+      <div class="about-stats stats-row">
+        <div class="stat-box red-border">
+          <h4 class="red-text">Education</h4>
+          <p class="stat-year">2023 - 2027 (Ongoing)</p>
+          <p>Software Engineering Student</p>
+          <p>University of Management and Technology, Lahore</p>
+        </div>
+        <div class="stat-box red-border">
+          <h4 class="red-text">Experience</h4>
+          <p class="stat-year">Internship</p>
+          <p>Full Stack Developer</p>
+          <p>(Hecta Solution)</p>
+          <p>Freelance Projects 2023 - Present </p>
+        </div>
+        <div class="stat-box red-border">
+          <h4 class="red-text">Software</h4>
+          <br>
+          <p>React.js, Node.js, Next.js, MongoDB, Express.js, TypeScript, Python, Git & GitHub</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section">
+    <h3 class="section-heading">Technical Skills</h3>
+    <ul class="skills">
+      <li><i class="fab fa-html5" style="color: #e34f26;"></i> HTML5</li>
+      <li><i class="fab fa-css3-alt" style="color: #1572b6;"></i> CSS / Tailwind</li>
+      <li><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript</li>
+      <li><i class="fab fa-react" style="color: #61dafb;"></i> React.js</li>
+      <li><i class="fab fa-python" style="color: #3776ab;"></i> Python</li>
+      <li><i class="fab fa-node-js" style="color: #339933;"></i> Node.js</li>
+      <li><i class="fab fa-node-js" style="color: #339933;"></i> Next.js</li>
+      <li><i class="fab fa-python" style="color: #3776ab;"></i> Nest.js</li>
+      <li><i class="fas fa-server" style="color: #000000;"></i> Express.js</li>
+      <li><i class="fas fa-database" style="color: #47a248;"></i> MongoDB</li>
+      <li><i class="fas fa-database" style="color: #4479a1;"></i> PostgreSQL</li>
+      <li><i class="fas fa-cloud" style="color: #007acc;"></i> REST APIs</li>
+      <li><i class="fas fa-robot" style="color: #ff9900;"></i> AI Tools & Models</li>
+      <li><i class="fas fa-brain" style="color: #ffffff;"></i> Machine Learning</li>
+      <li><i class="fab fa-github" style="color: #ffffff;"></i> Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section class="skills-section">
+    <h3 class="section-heading">Other Skills</h3>
+    <ul class="skills">
+      <li><i class="fas fa-cogs"></i> MATLAB Works</li>
+      <li><i class="fas fa-pen-nib"></i> Content Writing</li>
+      <li><i class="fas fa-bullhorn"></i> Copywriting</li>
+      <li><i class="fas fa-feather-alt"></i> Creative writing</li>
+      <li><i class="fas fa-search"></i> Story Writing</li>
+      <li><i class="fas fa-search"></i> Plagiarism Detection</li>
+      <li><i class="fas fa-palette"></i> Graphic Designing</li>
+      <li><i class="fas fa-vector-square"></i> Logo Designing</li>
+      <li><i class="fas fa-paint-brush"></i> Canva Pro</li>
+      <li><i class="fas fa-film"></i> Photo & Video Editing</li>
+      <li><i class="fas fa-users"></i> Leadership</li>
+      <li><i class="fas fa-sync-alt"></i> Adaptability</li>
+      <li><i class="fas fa-comments"></i> Communication Skills</li>
+      <li><i class="fas fa-puzzle-piece"></i> Problem Solving</li>
+      <li><i class="fas fa-clock"></i> Time Management</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section" id="projects">
+    <h3 class="section-heading">Recent Projects</h3>
+
+    <div class="projects">
+
+      <div class="project">
+        <img src="images/library system.png" alt="Library System">
+        <h4>Library System</h4>
+        <p>MERN stack application with authentication and role-based access.</p>
+        <p class="tech">React.js, MongoDB, Express.js, Node.js, REST APIs</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Library-System" target="_blank"><i class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://librarysys-navy.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/shahir.png" alt="Shahir Enterprises">
+        <h4>Shahir Enterprises</h4>
+        <p>Professional corporate brochure website for a diversified enterprise.</p>
+        <p class="tech">React.js, TypeScript, Tailwind CSS, Vite</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Shahir-Enterprises" target="_blank"><i
+              class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://shahirent.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/verdant.png" alt="Verdant Soft">
+        <h4>Verdant Soft</h4>
+        <p>Modern, responsive landing page with custom scrollbar and scroll-triggered animations.</p>
+        <p class="tech">Next.js 14, Tailwind CSS, TypeScript, Framer Motion</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Verdant-Soft" target="_blank"><i class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://verdantsoft-sooty.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/employee app.png" alt="Employees Contacts App">
+        <h4>Employees Contacts App</h4>
+        <p>Contact management system with secure authentication.</p>
+        <p class="tech">React.js, Node.js, MongoDB, REST APIs</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/my-contacts-app" target="_blank"><i class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://employeescontactsapp.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i>
+            Live View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/Solar-Planet.png" alt="Solar System">
+        <h4>Solar Planet System</h4>
+        <p>Interactive solar system simulation with animations.</p>
+        <p class="tech">HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Solar-Planet-System" target="_blank"><i
+              class="fab fa-github"></i> GitHub Repo</a>
+          <a href="https://solar-planetsystem.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/LMS.png" alt="University LMS">
+        <h4>University Portal & LMS</h4>
+        <p>Complete LMS portal with role-based access for Admins, Teachers, and Students.</p>
+        <p class="tech">HTML, CSS, JavaScript, Node.js, MySQL</p>
+        <p style="font-size: 0.75rem; color: var(--accent); margin-top: -8px; margin-bottom: 12px; line-height: 1.4; opacity: 0.9;">
+          <strong>Demo Logs:</strong> admin / teacher / student @university.edu<br>
+          <strong>Pass:</strong> admin123 / password123 / student123
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/lms-portal" target="_blank"><i class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://lmsportal-alpha.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/error 404.png" alt="404 Page">
+        <h4>Error-404 Page</h4>
+        <p>User-friendly animated 404 error page.</p>
+        <p class="tech">HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Error-404" target="_blank"><i class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://error-404-git.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/light bulb.png" alt="Impossible Light Bulb">
+        <h4>Impossible Light Bulb</h4>
+        <p>Interactive light bulb simulation with physics-based animations.</p>
+        <p class="tech">HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Impossible-Light-Bulb" target="_blank"><i
+              class="fab fa-github"></i> GitHub Repo</a>
+          <a href="https://impossible-lightbulb.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i>
+            Live View</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/animated-login.png" alt="Animated Login Page">
+        <h4>Animated Login Page</h4>
+        <p>Sleek and professional login page design with interactive animations.</p>
+        <p class="tech">HTML, CSS (Animations), JavaScript</p>
+        <div class="project-links">
+          <a href="https://github.com/muhammadAbubakar390/Animated-LoginPage" target="_blank"><i class="fab fa-github"></i>
+            GitHub Repo</a>
+          <a href="https://animated-login-page-livid.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live
+            View</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERNSHIP / EXPERIENCE -->
+  <section class="experience-section">
+    <h3 class="section-heading">Professional Experience</h3>
+    <div class="projects" style="grid-template-columns: 1fr;">
+      <div class="project" style="display: flex; gap: 25px; align-items: center; flex-direction: row;">
+        <img src="images/internship.png" alt="Hecta Solution Internship" style="width: 40%; margin-bottom: 0;">
+        <div class="project-info">
+          <h4 style="font-size: 1.4rem;">Hecta Solution Internship</h4>
+          <p>Worked as a Full Stack Developer Intern, contributing to real-world projects and enhancing technical
+            proficiency in the MERN stack.</p>
+          <a class="view-cert" data-cert="Certifications/Hecta Solution internship - MA.pdf"
+            style="display: inline-block; margin-top: 15px;">View Internship Certificate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certs-section">
+    <h3 class="section-heading">My Certifications</h3>
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/javascript.jpg" alt="20 JavaScript Projects">
+        </div>
+        <div class="cert-info">
+          <h4>20 JavaScript Projects</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (20 JS Projects).pdf">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/aichatbot.jpg" alt="AI ChatBot">
+        </div>
+        <div class="cert-info">
+          <h4>AI ChatBot</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (AI ChatBot).pdf">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/html-css-bootstrap.jpg" alt="CSS, Bootstrap, JavaScript">
+        </div>
+        <div class="cert-info">
+          <h4>CSS, Bootstrap, JavaScript</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (CSS, Bootstrap, JavaScript).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/CV-writing-tailoring.png" alt="CV Writing & Tailoring">
+        </div>
+        <div class="cert-info">
+          <h4>CV Writing & Tailoring</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (CV Writing & Tailoring).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/Mastering-Business-Management.jpeg" alt="Business Management">
+        </div>
+        <div class="cert-info">
+          <h4>Business Management</h4>
+          <a class="view-cert"
+            data-cert="Certifications/Udemy Certificate (Executive Certificate in Business Management).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/figma-ui-ux.jif" alt="Figma UI-UX">
+        </div>
+        <div class="cert-info">
+          <h4>Figma UI-UX</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Figma UI-UX).pdf">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/jarvis-ai.jpg" alt="Jarvis AI">
+        </div>
+        <div class="cert-info">
+          <h4>Jarvis AI</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Jarvis AI).pdf">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/Java-Networking.jpg" alt="Java Network Programming">
+        </div>
+        <div class="cert-info">
+          <h4>Java Network Programming</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Java Network Programming).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/software-architectures.jpg" alt="Master in Software Architecture">
+        </div>
+        <div class="cert-info">
+          <h4>Master in Software Architecture</h4>
+          <a class="view-cert"
+            data-cert="Certifications/Udemy Certificate (Master in Software Architecture, Engineering & Development).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/micosoft-azure.png" alt="Microsoft Azure">
+        </div>
+        <div class="cert-info">
+          <h4>Microsoft Azure</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Microsoft Azure).pdf">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/microsoft-excel.webp" alt="Microsoft Excel">
+        </div>
+        <div class="cert-info">
+          <h4>Microsoft Excel</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Microsoft Excel).pdf">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/MachineLearning-with-Python.png" alt="Python Machine Learning">
+        </div>
+        <div class="cert-info">
+          <h4>Python Machine Learning</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Python MAchine Learning).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/Python-for-Data-Science-illustration.jpg" alt="Python for Data Science">
+        </div>
+        <div class="cert-info">
+          <h4>Python for Data Science</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (Python for Data Science).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/ui-ux-figma.jif" alt="UI-UX Design With Figma">
+        </div>
+        <div class="cert-info">
+          <h4>UI-UX Design With Figma</h4>
+          <a class="view-cert" data-cert="Certifications/Udemy Certificate (UI-UX Design With Figma).pdf">View
+            Certificate</a>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/python_cover.png" alt="Introduction to Python">
+        </div>
+        <div class="cert-info">
+          <h4>Introduction to Python</h4>
+          <a class="view-cert" data-cert="Certifications/introduction-to-python.jpg">View Certificate</a>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-img-container">
+          <img src="images/english-comm.png" alt="English Immersion Program">
+        </div>
+        <div class="cert-info">
+          <h4>English Immersion Program</h4>
+          <a class="view-cert" data-cert="Certifications/English-Immersion-Certificate.pdf">View Certificate</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <h3 class="section-heading">Get In Touch</h3>
+
+    <div class="contact-container">
+      <!-- Left: Info -->
+      <div class="contact-info">
+        <p class="contact-intro">Let's collaborate! I am always open to discussing exciting projects and new
+          opportunities.</p>
+
+        <ul class="contact-details">
+          <li>
+            <span class="contact-icon red-icon"><i class="fas fa-envelope"></i></span>
+            <a href="mailto:mianabubakar3390@gmail.com">mianabubakar3390@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-icon red-icon"><i class="fas fa-phone"></i></span>
+            <a href="tel:+923160431266">+92 316 0431266</a>
+          </li>
+          <li>
+            <span class="contact-icon red-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span>Lahore, Pakistan</span>
+          </li>
+        </ul>
+
+        <div class="contact-socials">
+          <a href="https://github.com/muhammadAbubakar390" target="_blank" class="social-circle"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-abubaker-a631b6282" target="_blank" class="social-circle"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/923160431266" target="_blank" class="social-circle"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-form-wrapper">
+        <form class="contact-form" id="contact-form">
+          <input type="text" id="from_name" name="from_name" placeholder="Your Name" required />
+          <input type="email" id="from_email" name="from_email" placeholder="Your Email" required />
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="send-btn" id="send-btn">Send Message</button>
+          <p id="form-status" style="margin:0; font-size:0.95rem; display:none;"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Muhammad Abu Bakar | MuhammadAbuBakar.dev</p>
+  </footer>
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js" defer></script>
+
+
+  <!-- MODAL FOR CERTIFICATES -->
+  <div id="cert-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <iframe id="modal-viewer" src=""></iframe>
+    </div>
   </div>
-</section>
-
-<!-- ABOUT -->
-<section class="card">
-  <h3>About Me</h3>
-  <p>
- My name is Muhammad Abu Bakar, and I am a 5th-semester Software Engineering student with a strong interest in web development, particularly the MERN stack.
-I have a solid understanding of HTML, CSS, JavaScript, PHP, React.js, Node.js, Express.js, and MongoDB, along with strong foundations in core programming and problem-solving concepts. </p>
-<p>
-In addition to web development, I have also worked on basic AI and Machine Learning models, which has helped me understand data-driven thinking, model logic, and how intelligent systems can be integrated with modern applications.
-I actively enjoy exploring new technologies and innovative approaches, and I continuously seek opportunities to improve my skills through hands-on learning and experimentation. I consider myself at a foundation to intermediate level, but I am highly motivated, consistent, and eager to grow through real-world development experience.
-</p>
-<p>
-I am seeking an opportunity to join a company as a MERN Stack Developer, where I can gain practical industry experience, collaborate with experienced and qualified technical staff, and contribute to meaningful and impactful projects.
-My goal is to build strong professional expertise, continuously enhance my technical skills, and become a valuable asset to the organization while advancing my career in software engineering.
-  </p>
- 
-</section>
-
-<!-- SKILLS -->
-<section class="card">
-  <h3>Technical Skills</h3>
-  <ul class="skills">
-    <li>HTML5</li>
-    <li>CSS / Tailwind</li>
-    <li>JavaScript</li>
-    <li>React.js</li>
-    <li>Node.js</li>
-    <li>Express.js</li>
-    <li>MongoDB</li>
-    <li>MySQL</li>
-    <li>REST APIs</li>
-    <li>AI Tools</li>
-    <li>Machine Learning</li>
-    <li>Git & GitHub</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h3>Other Skills</h3>
-  <ul class="skills">
-    <li>Content Writing</li>
-    <li>Copywriting</li>
-     <li>Creative writing</li>
-      <li>Plagiarism Detection</li>
-    <li>Graphic Designing</li>
-     <li>Logo Designing</li>
-    <li>Canva Pro</li>
-    <li>Photo & Video Editing</li>
-    <li>Leadership</li>
-  </ul>
-</section>
-
-<!-- PROJECTS -->
-<section class="card">
-  <h3>Recent Projects</h3>
-
-  <div class="projects">
-
-    <div class="project">
-      <img src="images/library system.png" alt="Library System">
-      <h4>Library System</h4>
-      <p>MERN stack application with authentication and role-based access.</p>
-      <p class="tech">React.js, MongoDB, Express.js, Node.js, REST APIs</p>
-      <a href="https://github.com/muhammadAbubakar390/Library-System" target="_blank">View Project</a>
-    </div>
-
-    <div class="project">
-      <img src="images/employee app.png" alt="Employees Contacts App">
-      <h4>Employees Contacts App</h4>
-      <p>Contact management system with secure authentication.</p>
-      <p class="tech">React.js, Node.js, MongoDB, REST APIs</p>
-      <a href="https://github.com/muhammadAbubakar390/my-contacts-app" target="_blank">View Project</a>
-    </div>
-
-    <div class="project">
-      <img src="images/LMS.png" alt="University LMS">
-      <h4>University Portal & LMS</h4>
-      <p>Complete LMS portal with frontend & backend integration.</p>
-      <p class="tech">HTML, CSS, JavaScript, Node.js, MySQL</p>
-      <a href="https://github.com/muhammadAbubakar390/lms-portal" target="_blank">View Project</a>
-    </div>
-
-    <div class="project">
-      <img src="images/Solar-Planet.png" alt="Solar System">
-      <h4>Solar Planet System</h4>
-      <p>Interactive solar system simulation with animations.</p>
-      <p class="tech">HTML, CSS, JavaScript</p>
-      <a href="https://solar-planetsystem.vercel.app/" target="_blank">View Project</a>
-    </div>
-
-    <div class="project">
-      <img src="images/error 404.png" alt="404 Page">
-      <h4>Error-404 Page</h4>
-      <p>User-friendly animated 404 error page.</p>
-      <p class="tech">HTML, CSS, JavaScript</p>
-      <a href="https://error-404-git.vercel.app/" target="_blank">View Project</a>
-    </div>
-    
-    <div class="project">
-      <img src="images/light bulb.png" alt="Impossible Light Bulb">
-      <h4>Impossible Light Bulb</h4>
-      <p>Interactive light bulb simulation with physics-based animations.</p>
-      <p class="tech">HTML, CSS, JavaScript</p>
-      <a href="https://impossible-lightbulb.vercel.app/" target="_blank">View Project</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- HIRE ME -->
-<section class="hire-me">
-  <h3>Hire Me</h3>
-  <p>
-    Open to freelance, remote, part-time & full-time opportunities.
-    Let’s build something great together.
-  </p>
-
-  <div class="hire-buttons">
-    <a href="mailto:mianabubakar3390@gmail.com">Email Me</a>
-    <a href="https://wa.me/923160431266" target="_blank">WhatsApp</a>
-    <a href="https://www.linkedin.com/in/muhammad-abubaker-a631b6282" target="_blank">LinkedIn</a>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 Muhammad Abu Bakar | MuhammadAbuBakar.dev</p>
-</footer>
-<script src="script.js" defer></script>
 
 </body>
-<button id="theme-toggle">🌙</button>
+
 
 </html>
